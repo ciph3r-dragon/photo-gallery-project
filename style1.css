@@ -18,6 +18,7 @@ body {
     align-items: center;
     font-size: 2rem;
     font-weight: 300;
+    cursor: pointer;
 }
 
 .nav-container {
@@ -30,6 +31,7 @@ body {
 
 .nav-item {
     padding: 1.0rem 4rem;
+    cursor: pointer;
 }
 
 .nav-item img {
@@ -44,11 +46,11 @@ body {
 }
 
 .image-gallery {
-    margin: 5rem 0rem;
+    margin: 1rem 0rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 3rem;
+    gap: 1rem;
 }
 
 .image-gallery li {

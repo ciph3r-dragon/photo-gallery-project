@@ -10,18 +10,19 @@ body {
 
 .head {
     display: flex;
-    background-color: rgb(119, 141, 169);
-    color: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #ffa600;
     height: 4rem;
     text-transform: uppercase;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
     font-weight: 300;
+    cursor: pointer;
 }
 
 .nav-container {
-    background-color: rgb(65 90 119);
+    background-color: rgb(255, 174, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,6 +31,7 @@ body {
 
 .nav-item {
     padding: 1.0rem 4rem;
+    cursor: pointer;
 }
 
 .nav-item img {
@@ -44,18 +46,20 @@ body {
 }
 
 .image-gallery {
-    margin: 5rem 0rem;
+    margin: 1rem 0rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 3rem;
+    gap: 1rem;
 }
 
+
 .image-gallery li {
-    flex-basis: 350px;
+    flex-basis: 300px;
     position: relative;
     cursor: pointer;
     list-style-type: none;
+    flex-grow: auto;
 }
 
 .image-gallery li img {
@@ -65,6 +69,7 @@ body {
     vertical-align: middle;
     border-radius: 5px;
 }
+
 
 .overlay {
     position: absolute;
